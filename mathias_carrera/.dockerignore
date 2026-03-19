@@ -1,0 +1,21 @@
+# Excluir entornos virtuales locales
+.venv/
+venv/
+ENV/
+
+# Excluir archivos de Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Excluir Git y herramientas
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Excluir el propio Dockerfile y archivos de instalación
+Dockerfile
+.dockerignore
+uv-installer.sh
